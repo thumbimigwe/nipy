@@ -1,8 +1,10 @@
+#!/usr/bin/python3
+
+
+
 # ********************* PROBLEM STATEMENT *********************
-# A primary school teacher wants to test her students mental arithmetic by making
-# them complete a test with 10 questions in which they complete operations like;
-# adding, subracting and multiplying.
-#
+# A primary school teacher wants to test her students mental arithmetic by making them complete a test with 10 questions in which they complete operations like; adding, subracting and multiplying.
+
 # Complete the following tasks;
 # 1.   Design and create the algorithm for this new primary school arithmetic quiz
 # 2.   Think of and implement a new feature to improve this task.
@@ -11,8 +13,7 @@
 #
 # 3.   Design and implement this feature into your algorithm.
 #
-# however, this teacher has two clases for mathematics and she wants to keep the
-# class' score separate.
+# however, this teacher has two clases for mathematics and she wants to keep the class' score separate.
 #
 # 4.   improve task (3) so that there is more than oneset of class score.
 #
@@ -29,16 +30,14 @@ import random
 score=0
 answer=0
 operators=('+','-','x')
- # -------------------------------------------------------------
 
+ # -------------------------------------------------------------
 for i in range(1):
      num = random.randint(5,10)
      num1 = random.randint(1,5)
-
-     # pick out the operator of choice
-
+# pick out the operator of choice
      operator = random.choice(operators)
-     #  mark out the answer
+#  mark out the answer
      if operator == "+":
          answer = num + num1
 
@@ -49,6 +48,13 @@ for i in range(1):
          answer = num * num1
 
 # create the users input
+     print('What is '+str(num) + operator + str(num1))
+     user_answer= int(input('Enter The answer =  '))
 
-print('What is '+str(num) + operator + str(num1))
-user_answer= int(input('Enter The answer.'))
+    #  responce section
+     if user_answer == answer:
+         print('Correct!')
+         score = score +1
+     else:
+        print("Sorry, That's Not Right. The answer was "+str(answer))
+        score
