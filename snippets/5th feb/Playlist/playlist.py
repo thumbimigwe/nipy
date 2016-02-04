@@ -3,7 +3,7 @@
 # Challenge
 # Your first challenge consists of writing a Python script that will read the following text file, one line at a time and display the content of each line on screen.
 
-file =open("MyPlaylist.txt","r")
+file = `open("MyPlaylist.txt","r")
 
 #Repeat for each song in the text file
 for line in file:
