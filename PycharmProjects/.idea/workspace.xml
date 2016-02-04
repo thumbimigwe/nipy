@@ -54,8 +54,8 @@
       <file leaf-file-name="forloop.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/untitled/forloop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.19480519">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -138,7 +138,7 @@
       </pane>
     </panes>
   </component>
-  <component name="RunManager" selected="Python.whileloop">
+  <component name="RunManager" selected="Python.forloop">
     <configuration default="false" name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,6 +186,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/whileloop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="forloop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PycharmProjects" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/forloop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -312,16 +329,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.hello" />
       <item index="1" class="java.lang.String" itemvalue="Python.Conditionals" />
       <item index="2" class="java.lang.String" itemvalue="Python.whileloop" />
+      <item index="3" class="java.lang.String" itemvalue="Python.forloop" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.whileloop" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Conditionals" />
-        <item index="2" class="java.lang.String" itemvalue="Python.hello" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.forloop" />
+        <item index="1" class="java.lang.String" itemvalue="Python.whileloop" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Conditionals" />
+        <item index="3" class="java.lang.String" itemvalue="Python.hello" />
       </list>
     </recent_temporary>
   </component>
@@ -392,8 +411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/untitled/forloop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.19480519">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding />
         </state>
       </provider>
