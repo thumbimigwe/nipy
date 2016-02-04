@@ -30,8 +30,28 @@ import random
 score=0
 answer=0
 operators=('+','-','x')
+valid_name=False
+numbers="1234567890"
+
 
  # -------------------------------------------------------------
+# inputing a name // data validation
+while valid_name == False:
+    number_found=False
+    name = input('what is your name? ')
+    for i in name:
+        for u in numbers:
+            if i==u:
+                number_found=True
+
+            if number_found == True:
+                 valid_name=False
+
+            else:
+                 valid_name=True
+
+
+
 for i in range(1):
      num = random.randint(5,10)
      num1 = random.randint(1,5)
