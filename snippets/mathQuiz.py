@@ -35,7 +35,11 @@ numbers="1234567890"
 
 
  # -------------------------------------------------------------
+# loading up the testfile
+myFile=open("scores.txt","a")
+myFile.close()
 # inputing a name // data validation
+
 while valid_name == False:
     number_found=False
     name = input('what is your name? ')
@@ -52,7 +56,7 @@ while valid_name == False:
 
 
 
-for i in range(1):
+for i in range(10):
      num = random.randint(5,10)
      num1 = random.randint(1,5)
 # pick out the operator of choice
@@ -77,4 +81,8 @@ for i in range(1):
          score = score +1
      else:
         print("Sorry, That's Not Right. The answer was "+str(answer))
-        score
+        score=score
+print("your score was "+str(score))
+myFile=open("score.txt","a")
+myFile.write(name+","+str(score)+"\n")
+myFile.close()
