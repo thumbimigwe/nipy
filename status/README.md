@@ -1,2 +1,0 @@
-# nipy
-Python novice
