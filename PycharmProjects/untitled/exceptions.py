@@ -7,7 +7,7 @@ try:
     for line in fh.readlines():
         print(line)
 
-except:
-    print("something bad happened")
+except IOError as e:
+    print("something bad happened ({})".format(e))
 
 print("after badness")
