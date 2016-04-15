@@ -14,5 +14,6 @@ Python novice
 - [ ] Posting to Facebook from a Django App
 - [ ] [Set Up a Contact Form With Django](https://hellowebapp.com/news/tutorial-setting-up-a-contact-form-with-django/)
 - [ ] Geodjango
-- [ ] Geodjango
+- [ ] Mailchimp
+- [ ] Heroku
 - 
